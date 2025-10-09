@@ -1,0 +1,63 @@
+Edgar Perez, Bethaney Mallory-Smothers, Tommy Nguyen
+
+Dr. Donahoo
+
+Software Engineering
+
+07 October 2025
+
+9 Use Cases
+
+1. Create Account
+Primary Actor: New user
+Stakeholders: User wants to join and start trading, platform wants real users
+Success Scenario: User fills out signup form, system checks info, saves it, and confirms account is successfully created.
+Success Criteria: User can log in right after signing up.
+
+2. View Portfolio
+Primary Actor: Logged-in User
+Stakeholders: The user wants to see all their commodities and value, platform needs to show correct data.
+Success Scenario: User goes to portfolio page, system pulls holding and prices, and shows total balance.
+Success Criteria: Portfolio shows accurate numbers and updates with current market prices
+
+3. Make a trade
+Primary Actor: Logged-in user
+Stakeholders: User wants to swap or buy crypto, the platform must track trades correctly.
+Success Scenario: User picks commodity to trade, confirms, and system updates balances.
+Success Criteria: Trade saved, new balances shown, confirmation message appears
+
+4. Deposit Funds
+Primary Actor: Logged-in user
+ Stakeholders: User wants to add money to their account, platform must ensure safe transactions.
+ Success Scenario: User selects a payment method, enters amount, confirms deposit, and system processes it securely.
+ Success Criteria: User’s account balance updates and deposit confirmation appears.
+ 
+5. Withdraw Funds
+Primary Actor: Logged-in user
+ Stakeholders: User wants to cash out; platform must process withdrawal securely and promptly.
+ Success Scenario: User requests withdrawal, system verifies balance and account details, and processes payment.
+ Success Criteria: Funds are transferred successfully; user receives confirmation.
+ 
+6. View Transaction History
+Primary Actor: Logged-in user
+ Stakeholders: User wants to review their past activity. Platform must maintain accurate records.
+ Success Scenario: User opens transaction history page, system retrieves records, and displays detailed list of trades, deposits, and withdrawals.
+ Success Criteria: All transactions appear correctly with timestamps and amounts.
+
+7. View Market Prices
+Primary Actor: Logged-in user
+Stakeholders: User wants to see live crypto and commodity prices, platform provides accurate data.
+Success Scenario: User opens market page, system fetches and shows real-time prices with charts.
+Success Criteria: Prices refresh correctly and match external data sources.
+
+8. Chat with AI Assistant
+Primary Actor: Logged-in user
+Stakeholders: User wants help understanding markets or using the app, platform uses AI to improve support.
+Success Scenario: User opens chat, asks a question, AI responds with helpful guidance or info.
+Success Criteria: AI provides clear and relevant answers.
+
+9. Enable Two-Factor Authentication (2FA)
+Primary Actor: Logged-in user
+Stakeholders: User wants extra security, platform must keep accounts safe.
+Success Scenario: User turns on 2FA, links an authenticator app or receives a code, and verifies setup.
+Success Criteria: 2FA works during next login and prevents unauthorized access.
