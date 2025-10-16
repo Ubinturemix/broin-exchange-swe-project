@@ -1,4 +1,4 @@
-package online.broins.broins_app;
+package online.broins;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
