@@ -1,0 +1,48 @@
+Edgar Perez, Bethaney Mallory-Smothers, Tommy Nguyen
+
+INSTALL.txt
+Broins Spring Boot Application
+
+Goal:
+Run our Broins Spring Boot app locally in IntelliJ and make sure
+it shows “Welcome to Broins!” on http://localhost:8080/
+
+1. Requirements
+
+- openjdk-24 installed
+- IntelliJ IDEA 
+
+2. Clone the Repo
+
+1) Open IntelliJ
+2) Click “Clone Repository”
+3) Paste this URL:
+   https://github.com/Ubinturemix/broin-exchange-swe-project
+4) Choose where to save the project and click Clone
+5) IntelliJ will open the project automatically
+
+3. Check Setup
+
+1) Go to File > Project Structure > Project -> SDK → make sure openjdk-24 is selected
+2) In the top section click "Build", click “Build Project”.
+
+4. Run the App
+
+1) Open this file:
+   broins-app/src/main/java/online/broins/BroinsApplication.java
+2) Click the green Run arrow next to the main method
+3) Wait for it to say:
+   “Tomcat started on port 8080”
+   “Started BroinsApplication”
+
+
+5. View in Browser
+
+1) Go to your web browser
+2) Type: http://localhost:8080/
+3) You should see:
+   Welcome to Broins!
+
+Success!
+
+End of file.
